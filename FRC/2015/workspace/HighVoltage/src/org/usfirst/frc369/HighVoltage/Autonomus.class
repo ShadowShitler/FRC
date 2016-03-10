@@ -1,0 +1,14 @@
+public class Autonomous Extends IloveyouStephon{
+while(isAutonomous() && isEnabled()){
+			driveControl(-1,-1);
+			Timer.delay(2.125);
+			driveControl(0,0);
+			Timer.delay(0.25);
+			driveControl(1,-1);
+			Timer.delay(0.25);
+			driveControl(-1,-1);
+			Timer.delay(0.15);
+			driveControl(0,0);
+			
+	}
+	]
