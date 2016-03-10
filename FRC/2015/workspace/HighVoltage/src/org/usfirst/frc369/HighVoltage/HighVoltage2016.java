@@ -387,8 +387,18 @@ public class IloveyouStephon extends SampleRobot{
 	public void operatorControl(){
 		while (isOperatorControl() && isEnabled()){
 	
+			System.out.println("What autonomous are we using?");
+			if(System.in.println(run1){
+				run1();	
+			}			
 			
+			else if(System.in.println("run2"){
+				run2();
+			}
 			
+			else{
+				null;
+			}
 			if(state == States.FREE){
 				// when robot is freely controlled
 				freeControl();
