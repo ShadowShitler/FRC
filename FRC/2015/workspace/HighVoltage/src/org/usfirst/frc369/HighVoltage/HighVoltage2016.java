@@ -383,11 +383,8 @@ public class IloveyouStephon extends SampleRobot{
 		double V = (Right * 0.5) + 0.5;
 		return V;
 	}
-
-	public void operatorControl(){
-		while (isOperatorControl() && isEnabled()){
-	
-			System.out.println("What autonomous are we using?");
+	public void Autonomous(){
+		System.out.println("What autonomous are we using?");
 			if(System.in.println(run1){
 				run1();	
 			}			
@@ -399,6 +396,10 @@ public class IloveyouStephon extends SampleRobot{
 			else{
 				null;
 			}
+	}
+	public void operatorControl(){
+		while (isOperatorControl() && isEnabled()){
+	
 			if(state == States.FREE){
 				// when robot is freely controlled
 				freeControl();
